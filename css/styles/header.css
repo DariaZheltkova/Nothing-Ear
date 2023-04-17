@@ -1,0 +1,34 @@
+.header__nav {
+	padding-top: 44px;
+}
+
+.header__nav-item {
+	margin-right: 43px;
+}
+
+.header__nav-item:last-child {
+	margin-right: 0;
+}
+
+.header__nav-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__nav-link {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 21px;
+	text-decoration: none;
+	transition: all .2s ease-in;
+}
+
+.header__nav-link:hover, 
+.header__nav-link:active,
+.header__nav-link:focus {
+	color: #FF25C2;
+	outline: none;
+}
+
